@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import MyApp from './components/MyApp'
+import ShoppingList from './components/ShoppingList'
 
 function App() {
   return (
@@ -16,8 +18,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React with Nat
         </a>
+        <MyApp/>
+        <ShoppingList name="Nat"/>
       </header>
     </div>
   );
